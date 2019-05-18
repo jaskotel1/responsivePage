@@ -1,0 +1,38 @@
+#container {
+	margin: 0 auto 0 auto;
+	width: 100%;
+    max-width: 900px;
+    height: 600px;
+}
+
+article {
+    width: 80%;
+    background-color: red;
+    height: 100%;
+}
+
+nav {
+    width: 20%;
+    background-color: green;
+    height: 100%;
+}
+
+@media screen and (orientation: landscape) {
+	nav {
+		float: right;
+	}
+
+	article {
+		float: left;
+	}
+}
+
+@media screen and (orientation: portrait) {
+	nav {
+		float: left;
+	}
+
+	article {
+		float: right;
+	}
+}

@@ -1,0 +1,30 @@
+#container {
+	margin: 0 auto 0 auto;
+	width: 100%;
+    max-width: 900px;
+    height: 600px;
+}
+
+article {
+    float: right;
+    width: 80%;
+    background-color: red;
+    height: 100%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    background-color: green;
+    height: 100%;
+}
+
+@media screen and (min-width: 600px) {
+	nav {
+		float: right;
+	}
+
+	article {
+		float: left;
+	}
+}
